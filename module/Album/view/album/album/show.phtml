@@ -1,0 +1,16 @@
+<?php
+//show.phtml
+
+$title = 'Show Album';
+$this->headTitle($title);
+?>
+<h1><?php echo $this->escapeHtml($title); ?></h1>
+<dl>
+	<dt>Title</dt>
+	<dd><?php echo $this->escapeHtml($album->getTitle()); ?></dd>
+	<dt>Artist</dt>
+	<dd><?php echo $this->escapeHtml($album->getArtist()); ?></dd>
+</dl>
+<div>
+<a href=<?php echo $this->url('album', array('action' => 'index')) ?> class='btn btn-default'>Back</a>
+</div>
