@@ -1,11 +1,11 @@
-ZendSkeletonApplication
+Zend-Doctrine2-SkeletonApplication
 =======================
 
 Introduction
 ------------
-This is a simple, skeleton application using the ZF2 MVC layer and module
-systems. This application is meant to be used as a starting place for those
-looking to get their feet wet with ZF2.
+This is a an updated version of the Zend 2.2 skeleton application incorporating changes
+from Jason Grimes' excellent tutorial on swapping out Zend's native database layer
+with the Doctrine2 ORM found here: [tutorial](http://www.jasongrimes.org/2012/01/using-doctrine-2-in-zend-framework-2/)
 
 Installation
 ------------
@@ -22,7 +22,7 @@ Alternately, clone the repository and manually invoke `composer` using the shipp
 `composer.phar`:
 
     cd my/project/dir
-    git clone git://github.com/zendframework/ZendSkeletonApplication.git
+    git clone https://github.com/tclowers/Zend-Doctrine2-SkeletonApplication.git
     cd ZendSkeletonApplication
     php composer.phar self-update
     php composer.phar install
@@ -39,11 +39,7 @@ then pass it to `tar`:
 You would then invoke `composer` to install dependencies per the previous
 example.
 
-Using Git submodules
---------------------
-Alternatively, you can install using native git submodules:
-
-    git clone git://github.com/zendframework/ZendSkeletonApplication.git --recursive
+You will need to use `composer update` to at least install the doctrine2 module listed in composer.json
 
 Web Server Setup
 ----------------
