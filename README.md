@@ -5,7 +5,7 @@ Introduction
 ------------
 This is a an updated version of the Zend 2.2 skeleton application incorporating changes
 from Jason Grimes' excellent tutorial on swapping out Zend's native database layer
-with the Doctrine2 ORM found here: [tutorial](http://www.jasongrimes.org/2012/01/using-doctrine-2-in-zend-framework-2/)
+with the Doctrine2 ORM found here: [www.jasongrimes.org](http://www.jasongrimes.org/2012/01/using-doctrine-2-in-zend-framework-2/)
 
 Installation
 ------------
